@@ -1,5 +1,6 @@
-//to add items, i will just use code above, not anything below this comment
- 
+  import {cart} from '../data/cart.js';
+
+
 let productsHTML = '';
 products.forEach((product) => {
 productsHTML += `
