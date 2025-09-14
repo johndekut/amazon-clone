@@ -5,6 +5,11 @@ export let cart = [{
   productId: '15b6fc6f-327a-4ec4-896f-486349e85a3d',
   quantity: 1
 }];
+
+//funtion to save data so it doesn't reset
+function saveToStorage () {
+  localStorage.setItem('')
+}
 export function addToCart(productId) {
     let matchingItem; //will store the cart item if it already exists
 
